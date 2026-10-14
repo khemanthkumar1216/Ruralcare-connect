@@ -1,0 +1,16 @@
+{
+  "name": "ruralcare-connect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RuralCare Connect - Healthcare Access Without Reliable Internet",
+  "scripts": {
+    "start:backend": "npm --prefix backend run dev",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "test": "npm --prefix tests run test"
+  },
+  "keywords": ["ruralcare", "offline-first", "pwa", "healthcare", "indexeddb", "telugu"],
+  "author": "RuralCare Connect Team",
+  "license": "MIT"
+}
